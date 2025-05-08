@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { products } from "@/data/products";
 import { ProductGrid } from "@/components/product/ProductGrid";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Category, ListCheck } from "lucide-react";
+import { Layers, ListCheck } from "lucide-react";
 
 export default function CategoriesPage() {
   // Extract unique categories and count products in each
@@ -45,7 +45,7 @@ export default function CategoriesPage() {
           className="text-center"
         >
           <div className="flex items-center justify-center mb-2">
-            <Category className="mr-2 h-6 w-6" />
+            <Layers className="mr-2 h-6 w-6" />
             <h1 className="text-3xl font-bold">Categories</h1>
           </div>
           <p className="text-muted-foreground">
