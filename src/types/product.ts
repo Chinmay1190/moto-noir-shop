@@ -20,4 +20,5 @@ export interface Product {
   featured?: boolean;
   onSale?: boolean;
   salePrice?: number;
+  categoryIcon?: string;
 }
